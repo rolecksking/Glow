@@ -18,13 +18,9 @@ export default function Splash() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
           {/* Logo SVG matching the visual */}
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2C12 2 15 6 15 12C15 14.5 13 16 12 16" stroke="#A694FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M12 2C12 2 9 6 9 12C9 14.5 11 16 12 16" stroke="#A694FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M15 12C17.5 12 19 14 19 15C19 16 15 16 15 16" stroke="#A694FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M9 12C6.5 12 5 14 5 15C5 16 9 16 9 16" stroke="#A694FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M12 16V22" stroke="#A694FF" strokeWidth="2" strokeLinecap="round"/>
-            <path d="M12 16C12 16 15 18 15 21C15 22 12 22 12 22" stroke="#A694FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M12 16C12 16 9 18 9 21C9 22 12 22 12 22" stroke="#A694FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M12 21C12 21 16 15 16 10C16 6 12 3 12 3C12 3 8 6 8 10C8 15 12 21 12 21Z" stroke="#A694FF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M12 21C17 21 21 17 21 12C21 10 20 8 20 8C20 8 18 9 16 10" stroke="#A694FF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M12 21C7 21 3 17 3 12C3 10 4 8 4 8C4 8 6 9 8 10" stroke="#A694FF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
           <span style={{ fontSize: '42px', fontWeight: '700', letterSpacing: '-1px' }}>Glow</span>
         </div>
